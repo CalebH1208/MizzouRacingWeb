@@ -3,6 +3,7 @@ nav a {
   color:darkgoldenrod;
   font-size: 1rem;
   background-color: white;
+  text-decoration: none
 }
 nav a:active{
   color:black;
