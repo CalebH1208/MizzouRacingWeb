@@ -66,4 +66,12 @@ body{
   text-align: center;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
+.footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgrey;
+  color: black;
+  text-align: center;
+}
 
