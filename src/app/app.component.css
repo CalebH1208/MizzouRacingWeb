@@ -64,6 +64,7 @@ h2{
 body{
   text-align: center;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  min-width:1200px;
 }
 .footer{
   left: 0;
