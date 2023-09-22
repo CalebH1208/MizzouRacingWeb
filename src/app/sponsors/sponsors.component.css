@@ -1,0 +1,16 @@
+td{
+  background-color: lightgray;
+  align-content: center;
+  height:400px;
+  width:60%;
+}
+tr{
+  width:80%;
+  margin-left:10%;
+  align-content: center;
+}
+img{
+  max-width:50%;
+  height:100%;
+  float:left;
+}
