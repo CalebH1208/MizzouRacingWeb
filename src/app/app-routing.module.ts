@@ -18,6 +18,7 @@ import {VehicleDynamicsComponent} from "./vehicle-dynamics/vehicle-dynamics.comp
 
 const routes: Routes = [
   {path: '',redirectTo:'/home',pathMatch:'full'},
+  {path:'',component:HomeComponent},
   {path:'home',component:HomeComponent},
   {path:'history',component: HistoryComponent},
   {path:'aerodynamics',component:AerodynamicsComponent},
