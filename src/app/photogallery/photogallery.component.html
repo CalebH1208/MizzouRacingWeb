@@ -6,6 +6,7 @@
   function rightScroll() {
     const right = document.querySelector(".sidescroll");
     right.scrollBy(-200, 0);
+    console.log(34);
   }
 </script>
 <div>
@@ -13,15 +14,46 @@
   <div class="cover">
     <button class="left" onclick="leftScroll()">Left</button>
 <div class="sidescroll">
-  <div>
+
+  <div class="container">
+    <div class="gallery">
+      <figure class="gallery__item gallery__item--1">
+        <img src="./assets/PhotoGallery/Car74/TILT.jpg" alt="Gallery image 1" class="gallery__img">
+      </figure>
+
+      <figure class="gallery__item gallery__item--2">
+        <img src="./assets/PhotoGallery/Car74/DRV.jpg" alt="Gallery image 2" class="gallery__img">
+      </figure>
+
+      <figure class="gallery__item gallery__item--3">
+        <img src="./assets/PhotoGallery/Car74/top3.jpg" alt="Gallery image 3" class="gallery__img">
+      </figure>
+
+      <figure class="gallery__item gallery__item--4">
+        <img src="./assets/PhotoGallery/Car74/PG2.jpg" alt="Gallery image 4" class="gallery__img">
+      </figure>
+      <!--
+      <figure class="gallery__item gallery__item--5">
+        <img src="./assets/PhotoGallery/Car74/num1.jpeg" alt="Gallery image 5" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--6">
+        <img src="./assets/PhotoGallery/Car74/num1.jpeg" alt="Gallery image 6" class="gallery__img">
+      </figure>
+      //-->
+    </div>
+  </div>
+
+  <!--
+  <div class="child">
 <img src="./assets/PhotoGallery/Car74/top3.jpg">
   </div>
-  <div>
+  <div class="child">
     <img src="./assets/PhotoGallery/Car74/top3.jpg">
   </div>
-  <div>
+  <div class="child">
     <img src="./assets/PhotoGallery/Car74/top3.jpg">
   </div>
+  //-->
 </div>
     <button class="right" onclick="rightScroll()">Right</button>
   </div>
@@ -29,25 +61,4 @@
 
 
 
-<div class="container">
-  <div class="gallery">
-    <figure class="gallery__item gallery__item--1">
-      <img src="./assets/PhotoGallery/Car74/num1.jpeg" alt="Gallery image 1" class="gallery__img">
-    </figure>
-    <figure class="gallery__item gallery__item--2">
-      <img src="./assets/PhotoGallery/Car74/num1.jpeg" alt="Gallery image 2" class="gallery__img">
-    </figure>
-    <figure class="gallery__item gallery__item--3">
-      <img src="./assets/PhotoGallery/Car74/num1.jpeg" alt="Gallery image 3" class="gallery__img">
-    </figure>
-    <figure class="gallery__item gallery__item--4">
-      <img src="./assets/PhotoGallery/Car74/num1.jpeg" alt="Gallery image 4" class="gallery__img">
-    </figure>
-    <figure class="gallery__item gallery__item--5">
-      <img src="./assets/PhotoGallery/Car74/num1.jpeg" alt="Gallery image 5" class="gallery__img">
-    </figure>
-    <figure class="gallery__item gallery__item--6">
-      <img src="./assets/PhotoGallery/Car74/num1.jpeg" alt="Gallery image 6" class="gallery__img">
-    </figure>
-  </div>
-</div>
+
