@@ -15,7 +15,6 @@ import {PhotogalleryComponent} from "./photogallery/photogallery.component";
 import {PowertrainComponent} from "./powertrain/powertrain.component";
 import {SponsorsComponent} from "./sponsors/sponsors.component";
 import {VehicleDynamicsComponent} from "./vehicle-dynamics/vehicle-dynamics.component";
-import {PhotoDetailComponent} from "./photo-detail/photo-detail.component";
 
 const routes: Routes = [
   {path: '',redirectTo:'/home',pathMatch:'full'},
@@ -34,7 +33,6 @@ const routes: Routes = [
   {path:'powertrain',component: PowertrainComponent},
   {path:'sponsors',component: SponsorsComponent},
   {path:'vehicle-dynamics',component: VehicleDynamicsComponent},
-  {path:'photo-detail/:id',component:PhotoDetailComponent}
 
 ]
 @NgModule({
