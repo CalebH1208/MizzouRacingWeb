@@ -18,6 +18,7 @@ import { May2022Component } from './may2022/may2022.component';
 import { May2023Component } from './may2023/may2023.component';
 import { June2022Component } from './june2022/june2022.component';
 import { June2023Component } from './june2023/june2023.component';
+import { PhotoDetailComponent } from './photo-detail/photo-detail.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { June2023Component } from './june2023/june2023.component';
     May2022Component,
     May2023Component,
     June2022Component,
-    June2023Component
+    June2023Component,
+    PhotoDetailComponent
   ],
   imports: [
     BrowserModule,
