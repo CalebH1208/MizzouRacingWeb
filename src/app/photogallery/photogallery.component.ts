@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {Photo} from "../photo";
+import {PHOTOS} from "../PGList";
 
 @Component({
   selector: 'app-photogallery',

@@ -9,7 +9,7 @@ h1{
 .sidescroll{
   width:80%;
   margin-left:10%;
-  background-color: black;
+  background-color: white;
   height: auto;
   display:flex;
   overflow-x:auto;
@@ -50,7 +50,7 @@ h1{
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(14, 300px [coli]);
+  grid-template-columns: repeat(13, 300px) 0px;
   grid-template-rows: repeat(6, 100px [hey]);
   grid-gap: 10px;
 }
