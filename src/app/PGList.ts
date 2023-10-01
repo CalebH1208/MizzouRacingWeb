@@ -14,5 +14,4 @@ export const PHOTOS: Photo[]=[
   {id:11, path:"./assets/PhotoGallery/Car74/CONE.jpg",title:"",description:""},
   {id:12, path:"./assets/PhotoGallery/Car74/PREP.jpg",title:"",description:""},
 
-
 ]
