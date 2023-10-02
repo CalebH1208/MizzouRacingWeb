@@ -11,5 +11,17 @@ import {PhotoComponent} from "../photo/photo.component";
 export class PhotogalleryComponent {
 
     protected readonly PHOTOS = PHOTOS;
+    leftScroll() {
+        const left = document.querySelector(".sidescroll");
+        // @ts-ignore
+        left.scrollBy(-630, 0);
+    }
+    rightScroll() {
+
+        const right = document.querySelector(".sidescroll");
+        // @ts-ignore
+        right.scrollBy(630  , 0);
+
+    }
 
 }

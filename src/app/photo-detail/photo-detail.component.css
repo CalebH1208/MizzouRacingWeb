@@ -1,6 +1,22 @@
+h2{
+    text-align: left;
+    font-size:2rem;
+    padding-top:500px;
+}
+p{
+    line-height: 30px;
+    text-align: left;
+    font-size: 1.2rem;
+}
 img{
-    max-height: 80%;
-    max-width: 50%;
+    max-height: 100%;
+    max-width: 100%;
+    top:50%;
+}
+button{
+    background-color: white;
+    border:none;
+
 }
 #back{
     position: fixed;
@@ -10,17 +26,51 @@ img{
     height:100%;
     background-color: white;
     display: grid;
-    grid-template-columns: 10% 50% 10% 30%;
+    grid-template-columns: 10% auto 10% 30%;
     grid-template-rows: 100%;
     grid-gap:10px;
 }
 .main{
-position:fixed;
-    left:200px;
-
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-left:auto;
+    margin-right:auto;
 }
 .left{
+
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+}
+.lftbtn{
     position:fixed;
-    left:0;
-    width:200px;
+    left:0px;
+    top:50%;
+    max-height:100%;
+    width: 10%;
+}
+.rgtbtn{
+  position: fixed;
+    left:60%;
+    top:50%;
+    width:10%;
+}
+.back{
+    position:fixed;
+    left:0px;
+    top:5%;
+    max-height:100%;
+    width: 10%;
+}
+.right{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+.text{
+
 }

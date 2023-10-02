@@ -1,17 +1,22 @@
+<script>
 
+</script>
 <div id="back">
     <div class="left">
-        <a>
+        <button type="button" (click)="goBack()" class="back">
+            <img src="./assets/OtherAssets/backArrow.jpg" alt="">
+        </button>
+        <button type="button" (click)="prevPhoto()" class="lftbtn">
             <img src="./assets/OtherAssets/leftArrow.jpg">
-        </a>
+        </button>
     </div>
     <div class="main">
         <img src="{{photo?.path}}" >
     </div>
     <div class="right">
-        <a>
+        <button type="button" (click)="nextPhoto()" class="rgtbtn">
             <img src="./assets/OtherAssets/rightArrow.jpg">
-        </a>
+        </button>
     </div>
     <div class="text">
         <h2>{{photo?.title}}</h2>

@@ -4,6 +4,7 @@ import {ActivatedRoute} from "@angular/router";
 import{Location} from "@angular/common";
 import {PhotoService} from "../photo.service";
 import {PHOTOS} from "../PGList";
+import {HomeComponent} from "../home/home.component";
 
 @Component({
   selector: 'app-photo-detail',
@@ -30,7 +31,25 @@ export class PhotoDetailComponent {
         .subscribe(photo => this.photo = photo)
   }
   goBack(): void{
-    this.location.back();
+    this.location.go("/photo-gallery");
+    window.location.reload();
+  }
+  nextPhoto(): void{
+    // @ts-ignore
+    const x = this.photo?.id+1;
+
+  this.location.go("/photo-gallery/"+x);
+    window.location.reload();
+
+  }
+  prevPhoto(): void{
+
+    // @ts-ignore
+    var y = this.photo?.id -1;
+    this.location.go("/photo-gallery/"+y);
+    window.location.reload();
   }
   protected readonly PHOTOS = PHOTOS;
+  protected readonly Number = Number;
+
 }
