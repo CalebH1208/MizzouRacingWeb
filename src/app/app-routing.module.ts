@@ -34,7 +34,7 @@ const routes: Routes = [
   {path:'powertrain',component: PowertrainComponent},
   {path:'sponsors',component: SponsorsComponent},
   {path:'vehicle-dynamics',component: VehicleDynamicsComponent},
-  {path:'photo-gallery/:id',component:PhotoDetailComponent}
+  {path:'photo-gallery/:car/:id',component:PhotoDetailComponent}
 ]
 @NgModule({
   declarations: [],

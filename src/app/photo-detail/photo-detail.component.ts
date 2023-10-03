@@ -38,7 +38,7 @@ export class PhotoDetailComponent {
     // @ts-ignore
     const x = this.photo?.id+1;
 
-  this.location.go("/photo-gallery/"+x);
+    this.location.go("/photo-gallery/"+this.photo?.car+"/"+x);
     window.location.reload();
 
   }
@@ -46,7 +46,8 @@ export class PhotoDetailComponent {
 
     // @ts-ignore
     var y = this.photo?.id -1;
-    this.location.go("/photo-gallery/"+y);
+
+    this.location.go("/photo-gallery/"+this.photo?.car+"/"+y);
     window.location.reload();
   }
   protected readonly PHOTOS = PHOTOS;

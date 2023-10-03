@@ -23,5 +23,17 @@ export class PhotogalleryComponent {
         right.scrollBy(630  , 0);
 
     }
+  leftScroll2() {
+    const left = document.querySelector("#side2");
+    // @ts-ignore
+    left.scrollBy(-630, 0);
+  }
+  rightScroll2() {
+
+    const right = document.querySelector("#side2");
+    // @ts-ignore
+    right.scrollBy(630  , 0);
+
+  }
 
 }

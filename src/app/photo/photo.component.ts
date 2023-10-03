@@ -9,6 +9,7 @@ import {PHOTOS} from "../PGList";
 })
 export class PhotoComponent {
  photo: Photo={
+   car:74,
    id:1,
    path:"./assets/PhotoGallery/Car74/TILT.jpg",
    title:"Car tilt test!",
