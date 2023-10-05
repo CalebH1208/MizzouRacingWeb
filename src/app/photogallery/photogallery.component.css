@@ -82,8 +82,8 @@ h1{
 }
 .gallery2{
   display:grid;
-  grid-template-columns: repeat(18,200px) 0px;
-  grid-template-rows: repeat(6,100px);
+  grid-template-columns: repeat(17,200px) 0px;
+  grid-template-rows: repeat(6,100px)0px;
   grid-gap:10px
 }
 .gallery__img {
