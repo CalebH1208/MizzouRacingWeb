@@ -90,7 +90,7 @@ h1{
   display:grid;
   grid-template-columns: repeat(18,200px) 0px;
   grid-template-rows: repeat(6,120px) 0px;
-  grid-gap:10px
+  grid-gap:10px;
 }
 .gallery__img {
   width: 100%;
