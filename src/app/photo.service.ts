@@ -15,8 +15,10 @@ export class PhotoService {
     const photos = of(PHOTOS);
     return photos;
   }
-  getPhoto(id: number): Observable<Photo>{
+  getPhoto(id: number, car:number): Observable<Photo>{
+
     const photo = PHOTOS.find(h=>h.id ===id)!;
+
     return of(photo)
   }
 

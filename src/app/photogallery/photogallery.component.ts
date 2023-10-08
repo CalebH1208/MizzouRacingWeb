@@ -36,4 +36,18 @@ export class PhotogalleryComponent {
 
   }
 
+
+
+  leftScroll3() {
+    const left = document.querySelector("#side3");
+    // @ts-ignore
+    left.scrollBy(-630, 0);
+  }
+  rightScroll3() {
+
+    const right = document.querySelector("#side3");
+    // @ts-ignore
+    right.scrollBy(630  , 0);
+
+  }
 }

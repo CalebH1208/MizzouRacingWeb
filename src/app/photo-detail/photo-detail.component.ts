@@ -27,7 +27,8 @@ export class PhotoDetailComponent {
   }
   getPhoto(): void{
     const id = Number(this.route.snapshot.paramMap.get('id'));
-    this.photoService.getPhoto(id)
+    const car =Number(this.route.snapshot.paramMap.get('car'));
+    this.photoService.getPhoto(id,car)
         .subscribe(photo => this.photo = photo)
   }
   goBack(): void{
@@ -46,8 +47,10 @@ export class PhotoDetailComponent {
 
     // @ts-ignore
     var y = this.photo?.id -1;
+    //@ts-ignore
+    var x = this.photo?.car
 
-    this.location.go("/photo-gallery/"+this.photo?.car+"/"+y);
+    this.location.go("/photo-gallery/"+x+"/"+y);
     window.location.reload();
   }
   protected readonly PHOTOS = PHOTOS;
