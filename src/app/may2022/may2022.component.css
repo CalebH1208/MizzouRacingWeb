@@ -2,6 +2,7 @@ p{
   line-height: 30px;
   text-align: left;
   font-size: 1.2rem;
+  width: 80%;
 }
 h1{
   text-align: left;
@@ -9,4 +10,10 @@ h1{
 }
 h2{
   text-align: left;
+  margin-top:50px;
+}
+img{
+  height:400px;
+  object-fit: cover;
+  width:80%;
 }
