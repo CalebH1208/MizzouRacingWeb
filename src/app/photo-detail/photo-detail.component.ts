@@ -38,10 +38,10 @@ export class PhotoDetailComponent {
   nextPhoto(): void{
     // @ts-ignore
     const x = this.photo?.id+1;
-
-    this.location.go("/photo-gallery/"+this.photo?.car+"/"+x);
+  if(x !=36) {
+    this.location.go("/photo-gallery/" + this.photo?.car + "/" + x);
     window.location.reload();
-
+  }
   }
   prevPhoto(): void{
 
@@ -49,9 +49,10 @@ export class PhotoDetailComponent {
     var y = this.photo?.id -1;
     //@ts-ignore
     var x = this.photo?.car
-
-    this.location.go("/photo-gallery/"+x+"/"+y);
-    window.location.reload();
+  if(y !=0) {
+  this.location.go("/photo-gallery/" + x + "/" + y);
+  window.location.reload();
+  }
   }
   protected readonly PHOTOS = PHOTOS;
   protected readonly Number = Number;
