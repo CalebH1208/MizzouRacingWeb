@@ -7,7 +7,7 @@ img{
 
 .tbl{
   background-color: lightgray;
-  width:1000px;
+  width:900px;
   height:400px;
   align-content: center;
   margin-left:2.5%;
@@ -31,7 +31,7 @@ p{
   margin-top: 50px;
 }
 .body{
-  background-color: #f6f5f5;
+  background-color: #f6f6f6;
 
 }
 h1{
@@ -46,4 +46,25 @@ margin-top:100px;
 }
 h3{
   font-size: 2rem;
+}
+
+.SL{
+  background-color: lightgray;
+  width:300px;
+  height:270px;
+  align-content: center;
+  margin-left:2.5%;
+  margin-bottom: 2.5%;
+  display:inline-block;
+  border:2px solid darkgoldenrod;
+}
+.SI{
+  height:200px;
+  width:300px;
+  object-fit: cover;
+  float:left;
+}
+.txt{
+  margin-top: 220px;
+  font-size: 1.5rem;
 }
