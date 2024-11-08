@@ -57,6 +57,10 @@
     background: white;
   }
 
+  .sponsor-black img {
+    background: black;
+  }
+
   .dark-sponsor img {
     background: rgb(42, 42, 42);
   }
