@@ -24,6 +24,7 @@ import { IcSponsorsComponent } from './ic-sponsors/ic-sponsors.component';
 import { ScrollLineComponent } from './scroll-line/scroll-line.component';
 import { CommonModule } from '@angular/common';
 import { ParallaxMousemoveDirective } from './parallax-mousemove.directive';
+import { LogFinanceComponent } from './log-finance/log-finance.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { ParallaxMousemoveDirective } from './parallax-mousemove.directive';
     EvSponsorsComponent,
     IcSponsorsComponent,
     ScrollLineComponent,
-    ParallaxMousemoveDirective
+    ParallaxMousemoveDirective,
+    LogFinanceComponent
   ],
   imports: [
     BrowserModule,

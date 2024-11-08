@@ -14,6 +14,7 @@ import { EvCompetitionComponent } from './ev-competition/ev-competition.componen
 import { IcCompetitionComponent } from './ic-competition/ic-competition.component';
 import { EvSponsorsComponent } from './ev-sponsors/ev-sponsors.component';
 import { IcSponsorsComponent } from './ic-sponsors/ic-sponsors.component';
+import { LogFinanceComponent } from './log-finance/log-finance.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -47,6 +48,9 @@ const routes: Routes = [
 
   // High Voltage
   { path: 'high-voltage', component: HighVoltageComponent},
+
+   // High Voltage
+   { path: 'log-finance', component: LogFinanceComponent},
 
   // EV Comp
   { path: 'ev-competition', component: EvCompetitionComponent},
