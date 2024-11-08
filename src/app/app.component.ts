@@ -7,7 +7,7 @@ import { Router, NavigationEnd } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'racing-site';
+  title = 'mizzou-racing-page';
 
   constructor(private router: Router) {}
 
