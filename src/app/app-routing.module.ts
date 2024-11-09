@@ -19,7 +19,7 @@ import { LogFinanceComponent } from './log-finance/log-finance.component';
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   
-  // Home
+  //Home
   { path: 'home', component: HomeComponent },
 
   // EV History
