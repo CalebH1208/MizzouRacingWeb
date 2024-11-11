@@ -59,7 +59,7 @@ Commit your staged changes with a descriptive message:
 6. **Push Your Changes**  
 Push the changes to the main branch of the repository:
    ```bash
-   git push origin main
+   git push origin master
    ```
 
 **Or, you can edit files directly through the Github page.**
