@@ -14,6 +14,9 @@ export class BrakesAndControlsComponent implements AfterViewInit {
     const aboutCard = this.el.nativeElement.querySelector('.aero-card');
     const contactCard = this.el.nativeElement.querySelector('.aero-image-grid');
     const teamLeadCard = this.el.nativeElement.querySelector('.subteam-lead-card');
+    const teamLeadCardTwo = this.el.nativeElement.querySelector('.aero-card-two');
+    const aeroGridTwo = this.el.nativeElement.querySelector('.aero-image-grid-two');
+
 
     // Create the IntersectionObserver for "About Us"
     const aboutObserver = new IntersectionObserver((entries, observer) => {
@@ -52,8 +55,16 @@ export class BrakesAndControlsComponent implements AfterViewInit {
       contactObserver.observe(contactCard);
     }
 
+    if (aeroGridTwo) {
+      contactObserver.observe(aeroGridTwo);
+    }
+
     if (teamLeadCard) {
       aboutObserver.observe(teamLeadCard);
+    }
+
+    if (teamLeadCardTwo) {
+      aboutObserver.observe(teamLeadCardTwo);
     }
   }
 }

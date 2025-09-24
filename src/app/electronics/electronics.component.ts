@@ -16,6 +16,11 @@ export class ElectronicsComponent implements AfterViewInit{
     const teamLeadCard = this.el.nativeElement.querySelector('.subteam-lead-card');
     const teamLeadCardTwo = this.el.nativeElement.querySelector('.aero-card-two');
     const aeroGridTwo = this.el.nativeElement.querySelector('.aero-image-grid-two');
+    const teamLeadCardThree = this.el.nativeElement.querySelector('.aero-card-three');
+    const aeroGridThree = this.el.nativeElement.querySelector('.aero-image-grid-three');
+    const teamLeadCardFour = this.el.nativeElement.querySelector('.aero-card-four');
+    const aeroGridFour = this.el.nativeElement.querySelector('.aero-image-grid-four');
+    const teamLeadCardFive = this.el.nativeElement.querySelector('.aero-card-five');
 
     // Create the IntersectionObserver for "About Us"
     const aboutObserver = new IntersectionObserver((entries, observer) => {
@@ -64,6 +69,26 @@ export class ElectronicsComponent implements AfterViewInit{
 
     if (teamLeadCardTwo) {
       aboutObserver.observe(teamLeadCardTwo);
+    }
+
+    if (aeroGridThree) {
+      contactObserver.observe(aeroGridThree);
+    }
+
+      if (teamLeadCardThree) {
+      aboutObserver.observe(teamLeadCardThree);
+    }
+
+      if (aeroGridFour) {
+      contactObserver.observe(aeroGridFour);
+    }
+
+      if (teamLeadCardFour) {
+      aboutObserver.observe(teamLeadCardFour);
+    }
+
+      if (teamLeadCardFive) {
+      aboutObserver.observe(teamLeadCardFive);
     }
   }
 }
