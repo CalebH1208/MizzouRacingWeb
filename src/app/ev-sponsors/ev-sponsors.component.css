@@ -1,3 +1,19 @@
+#storrsFakeLogo {
+  background-color: #e0e0e0;
+  color: black;
+  width: 100%;
+}
+
+#storrsFakeLogo h1 {
+  font-size: 36pt;
+  font-style: italic;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  margin-top: 0;
+}
+
+
 .sponsors-header {
     text-align: center;
     padding: 40px 20px;
