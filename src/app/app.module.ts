@@ -25,6 +25,7 @@ import { ScrollLineComponent } from './scroll-line/scroll-line.component';
 import { CommonModule } from '@angular/common';
 import { ParallaxMousemoveDirective } from './parallax-mousemove.directive';
 import { LogFinanceComponent } from './log-finance/log-finance.component';
+import { HowToGiveComponent } from './how-to-give/how-to-give.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { LogFinanceComponent } from './log-finance/log-finance.component';
     IcSponsorsComponent,
     ScrollLineComponent,
     ParallaxMousemoveDirective,
-    LogFinanceComponent
+    LogFinanceComponent,
+    HowToGiveComponent
   ],
   imports: [
     BrowserModule,

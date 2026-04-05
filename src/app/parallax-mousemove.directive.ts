@@ -17,8 +17,14 @@ export class ParallaxMousemoveDirective {
     
     // Vertical movement: limited to a smaller range (55% - 65%)
     const moveY = 55 + (event.clientY / window.innerHeight) * 2;
-    
-    // Update the background position dynamically
-    heroContainer.style.backgroundPosition = `${moveX}% ${moveY}%`;
+
+
+    const screenMin = 768; // same value found in the media query in how-to-give.componet.css
+                          //  Its the same because this was originally done to fix a visual error on that page
+    // only runs on larger screens
+    if (window.innerWidth > screenMin) {
+      // Update the background position dynamically
+      heroContainer.style.backgroundPosition = `${moveX}% ${moveY}%`;
+    }
   }
 }

@@ -42,6 +42,24 @@
   .social-icons a {
     display: inline-block;
   }
+
+  p a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  p a:link {
+    color: #fff;
+  }
+
+  p a:active {
+    color: #fff;
+  }
+
+  p a:visited {
+    color: #fff;
+  }
+
   
   @media (max-width: 768px) {
     .footer-container {

@@ -15,6 +15,7 @@ import { IcCompetitionComponent } from './ic-competition/ic-competition.componen
 import { EvSponsorsComponent } from './ev-sponsors/ev-sponsors.component';
 import { IcSponsorsComponent } from './ic-sponsors/ic-sponsors.component';
 import { LogFinanceComponent } from './log-finance/log-finance.component';
+import { HowToGiveComponent } from './how-to-give/how-to-give.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -63,6 +64,8 @@ const routes: Routes = [
 
   // EV Sponsors
   { path: 'ic-sponsors', component: IcSponsorsComponent},
+
+  { path: 'how-to-give', component: HowToGiveComponent},
 
   { path: '**', redirectTo: '/home' } 
 ];

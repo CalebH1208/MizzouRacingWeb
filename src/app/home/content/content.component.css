@@ -107,6 +107,23 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow around the image */
   }
+
+  p a {
+    text-decoration: none;
+    color: white;
+  }
+
+  p a:link {
+    color: white;
+  }
+
+  p a:active {
+    color: white;
+  }
+
+  p a:visited {
+    color: white;
+  }
   
   /* Media Query for screens smaller than 768px (e.g., mobile devices) */
   @media (max-width: 768px) {
